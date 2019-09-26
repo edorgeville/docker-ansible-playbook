@@ -4,5 +4,5 @@
 ### Usage
 ```
 cd example/
-./ansible-playbook.sh playbook.yml -i inventory.yml
+docker-compose run --rm ansible-playbook playbook.yml -i inventory.yml
 ```
